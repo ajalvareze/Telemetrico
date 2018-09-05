@@ -6,6 +6,7 @@
     <Name>TelemetricoWebApp</Name>
     <RootNamespace>TelemetricoWebApp</RootNamespace>
     <NodeExePath>C:\Program Files\nodejs\node.exe</NodeExePath>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>

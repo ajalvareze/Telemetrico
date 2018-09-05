@@ -16,7 +16,7 @@ namespace F1ConsoleApp
 
         static void Main(string[] args)
         {
-            
+            /*
             Race race = new Race();
             using (StreamReader r = new StreamReader(@"C:\Users\Public\TestFolder\Race.txt"))
             {
@@ -28,10 +28,10 @@ namespace F1ConsoleApp
             {
                 Console.WriteLine(r.M_lapDistance);
             }
-            bool done = false;
+            bool done = false;*/
             
                 ///***************************
-            /*
+            
             bool done = false;
             UdpClient listener = new UdpClient(listenPort);
             IPEndPoint groupEP = new IPEndPoint(IPAddress.Any, listenPort);
@@ -72,7 +72,7 @@ namespace F1ConsoleApp
             {
                 listener.Close();
             }
-*/            
+            
         }        
     }
 }

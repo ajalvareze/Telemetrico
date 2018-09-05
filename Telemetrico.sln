@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1ConsoleApp", "F1ConsoleApp\F1ConsoleApp.csproj", "{1FB96544-C65A-4962-BC93-43071BA660FC}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TelemetricoWebApp", "TelemetricoWebApp\TelemetricoWebApp.njsproj", "{37DE83C2-E2D4-4491-B2AF-59E3FAF70DFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetricoW", "TelemetricoW\TelemetricoW.csproj", "{27E1303E-B8EC-4051-964C-8CFA22820688}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1FB96544-C65A-4962-BC93-43071BA660FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FB96544-C65A-4962-BC93-43071BA660FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FB96544-C65A-4962-BC93-43071BA660FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37DE83C2-E2D4-4491-B2AF-59E3FAF70DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37DE83C2-E2D4-4491-B2AF-59E3FAF70DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37DE83C2-E2D4-4491-B2AF-59E3FAF70DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37DE83C2-E2D4-4491-B2AF-59E3FAF70DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E1303E-B8EC-4051-964C-8CFA22820688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E1303E-B8EC-4051-964C-8CFA22820688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E1303E-B8EC-4051-964C-8CFA22820688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E1303E-B8EC-4051-964C-8CFA22820688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
