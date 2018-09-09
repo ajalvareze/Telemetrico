@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using TelemetricoW.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using TelemetricoW.Areas.testsArea.Data;
 
 namespace TelemetricoW
 {
@@ -39,6 +40,10 @@ namespace TelemetricoW
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+                
+
+            var connectionString = Configuration.GetConnectionString("TestDbContext");
+            services.AddEntityFrameworkNpgsql().AddDbContext<TestDbContext>(options => options.UseNpgsql(connectionString));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -68,6 +73,14 @@ namespace TelemetricoW
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+            });
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                  name: "areas",
+                  template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
             });
         }
     }
